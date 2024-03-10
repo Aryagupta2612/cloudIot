@@ -1,0 +1,13 @@
+###
+GET http://localhost:3000/user
+
+###
+POST http://localhost:3000/user
+content-type: application/json
+
+{
+    "fullname": "Arya Gupta",
+    "email": "aryagupta2612@gmail.com",
+    "mobile": "7898973390",
+    "password": "12345"
+}
