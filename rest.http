@@ -6,8 +6,33 @@ POST http://localhost:3000/user
 content-type: application/json
 
 {
-    "fullname": "Arya Gupta",
-    "email": "aryagupta2612@gmail.com",
+    "fullname": "SHREYA GUPTA",
+    "email": "shreyagupta2612@gmail.com",
+    "mobile": "12345678",
+    "password": "12345"
+}
+###
+PUT http://localhost:3000/user/65f00ed66a81327a3b020da2
+content-type: application/json
+
+{
+    "fullname": "sorya Gupta",
+    "email": "aryagupta261@gmail.com",
     "mobile": "7898973390",
     "password": "12345"
 }
+
+###
+DELETE http://localhost:3000/user/65f009250c628ed635bbeff0
+###
+
+@name=Get All Users Optimized
+
+GET http://localhost:3000/user
+    ?fullname=
+    &email=
+    &mobile=
+    &page=
+    &limit=
+
+###

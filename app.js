@@ -21,6 +21,7 @@ const UserRoutes = require("./routes/User.route")
 app.use("/user", UserRoutes);
 
 
+
 // Global error handler middleware
 app.use((err, req, res, next) => {
     // Log the error to the console
